@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_Practice</title>
+
+</head>
+<body>
+ <!-- Header -->
+     <h1>Succes party</h1>
+   
+     <!-- paragraph -->
+    <b>Welcome guys</b>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis autem sint ducimus dolore veritatis, expedita perspiciatis! Reiciendis quidem voluptate assumenda! Veniam vel
+         velit quaerat natus consectetur ea, inventore quasi ratione.</p>
+   
+    <!-- Adding the link -->
+   <hr>
+    <a href="http://infokalash.com" target="_main">click to paradise</a>
+    <br>
+    <hr>
+    <!-- Adddidng image -->
+    <img src="https://blog.uwohoo.com/wp-content/uploads/2019/03/HR-image.jpg" alt="Tech image" width="200px">
+
+    <!-- <img src="/HR-image.jpg"> -->
+    <hr>
+    <br>
+        
+<!-- <--separeting the lines (br element) and italic,underline and bold -->
+    
+    <i>Happy</i>
+    </br>
+    <br>
+    <u>don;t worry</u>
+    <br>
+    <b>worry</b>
+    </br>
+
+    <hr>
+    <!-- Small and Big cases -->
+    <Big>hello</Big>
+    <br>
+    <small>hello</small>
+    <hr>
+    <!-- Subscript and superscript -->
+    <!-- Subscript = asssignig lower values -->
+    <p>H<sub>2</sub>o</p>
+    <!-- Superscript = asssigning Upper values --> 
+    <p>a<sup>2</sup>+b+c</p>
+
+   
+<!-- This will keep the sentences as it is  -->
+<hr>
+<pre>
+    jmeter -g C:\JmeterTesting\Http\table1.csv -o C:\JmeterTesting\htmlreport\Report2
+**To do list **
+=processor (pre and post)
+=Regular Expression Extractor
+  -Right and left boundary
+==variables
+==Correlation
+==Assertions
+==Http manager(cache and cookie)
+Access log sampler Step-by-step
+This is a short tutorial on Jmeter's access log sampler. The purpose of the access log sampler
+is to provide an easy way to simulate production traffic. There are several benefits to using
+access logs.
+1. rather than guess what users are doing, the test plan is using real traffic data
+2. as the traffic pattern changes, the access log provides a record of individual changes and
+general shifts in usage
+3. access logs contain a lot of useful data, which may provide some insight
+4. access logs can be minded to determine different types of users
+5. access logs can capture detailed session information
+The down side of using access logs for test plans is you have to configure the webserver to
+output the request information. This may not be appropriate where security is an issue. For
+example, if the webserver dumps the post data from each request to the access logs, users
+login and password would be stored in plain text. Here are some general cases where access
+logs might be inappropriate.
+1. security sensitive applications where the data is encrypted
+2. the application does not allow fine grain control of which request parameters are written
+to the access logs
+3. the webserver cannot be configured to append the post data to the access log
+4. the webserver is hosting multiple applications, but doesn't provide a way to log the
+requests of one application to a separate file
+To take advantage of access logs, the first thing is the webserver needs to be configured to
+use extended log format. Links for configuring the popular containers are provided below.
+BEA Weblogic - http://e-docs.bea.com/wls/docs70/adminguide/web_server.html#113868
+Tomcat - http://jakarta.apache.org/tomcat/tomcat-5.0-doc/config/valve.html
+Websphere - http://e-docs.bea.com/wls/docs61/adminguide/web_server.html#113868
+Resin - http://www.caucho.com/resin-3.0/config/log.xtp#access-log
+In some cases, it may be desirable to write custom logging, so that sensitive information is
+not written to the access logs. This article does not cover the techniques for writing custom
+logging.
+Step-by-Step
+1. Start Jmeter
+2. select “test plan”
+3. right click add ->thread group
+4. select thread group
+5. right click add -> sampler -> access log sampler
+6. right click on “thread group” add -> listener -> aggregate report
+7. select the access log sampler
+8. enter the ip address or hostname
+9. enter the port
+10.if you want to download the images, set “Parse images” to true.
+11.Select a file for “log file location”
+12.select aggregate report
+13.enter “results.jtl” for filename
+At this point, the test plan is ready. Start the test with CTRL-R or from the menu start ->
+run.
+</pre>
+<hr>
+
+<p>H<sub>2</sub>+S+O<sub>4</sub> &hArr; H<sub>2</sub>SO<sub>4</sub></p> 
+ 
+
+
+
+
+
+
+
+    
+    
+
+
+</body>
+</html>
+
+

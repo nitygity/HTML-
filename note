@@ -1,0 +1,9 @@
+Aspect ratio = describes about the width and height of an image or screen.
+    ex- 1:1 (i.e for square)
+
+Div =container for the entire block and always takes the full width.
+    * Block level element
+
+span= it's an inline container.and takes as much as widt necessary.
+     
+
